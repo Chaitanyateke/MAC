@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MAC1"
+        tools:targetApi="31">
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".health"
+            android:exported="false" />
+        <activity
+            android:name=".art"
+            android:exported="false" />
+        <activity
+            android:name=".ecell"
+            android:exported="false" />
+        <activity
+            android:name=".nss"
+            android:exported="false" />
+        <activity
+            android:name=".adven"
+            android:exported="false" />
+        <activity
+            android:name=".code"
+            android:exported="false" />
+        <activity
+            android:name=".gdsc"
+            android:exported="false" />
+        <activity
+            android:name=".tp"
+            android:exported="false" />
+        <activity
+            android:name=".prarambha"
+            android:exported="false" />
+        <activity
+            android:name=".photography"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".higher"
+            android:exported="false" />
+        <activity
+            android:name=".robotics"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".mainprofile" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".MainpageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".signinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".signupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".optionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".welcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
